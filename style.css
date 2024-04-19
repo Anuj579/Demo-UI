@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: max-content;
+}
+
+.height-55 {
+    height: 55vh;
+}
+
+.height-45 {
+    height: 45vh;
+}
+
+/* First slide mobile */
+.img-div1 {
+    background: url(assets/bgImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-div1>div {
+    width: 110vw;
+    position: absolute;
+    bottom: -12vh;
+}
+
+.content-div1 {
+    background: linear-gradient(150deg, #5E11A1 3%, #470C79 90%);
+}
+
+.content {
+    position: relative;
+    top: -20px;
+}
+
+#first-img {
+    background-color: white;
+    max-width: max-content;
+    width: 72vw;
+    border: 3px solid #5B1C94;
+    border-radius: 10px;
+}
+
+.content-text {
+    color: white;
+}
+
+/* Second slide mobile */
+.img-div2 {
+    background-color: #18005A;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-div2>div {
+    position: absolute;
+    bottom: -3vh;
+}
+
+.img2-2 {
+    top: -20vh;
+}
+
+.content-div2 {
+    background: linear-gradient(150deg, #B411B0 3%, #6014C2 90%);
+}
+
+.content-div2 button {
+    background-color: #EC0DA5;
+    padding: 12px 18px;
+}
+
+/* Third slide mobile */
+.img-div3 {
+    background-color: #131549;
+    position: relative;
+    overflow: hidden;
+}
+
+.img3-1 {
+    bottom: -14vh;
+}
+
+.img3-2 {
+    top: -15vh;
+}
+
+.content-div3 {
+    background-color: #0C0F36;
+}
+
+.content-div3 button {
+    background-color: #CECECE;
+    padding: 12px 18px;
+}
+
+/* Fourth slide mobile */
+.img-div4 {
+    background-color: #0C121A;
+    overflow: hidden;
+}
+
+.img4-1 {
+    transform: translateY(-5vh);
+}
+
+.img4-2 {
+    transform: translate(10px, 40px);
+}
+
+.img4-3 {
+    transform: translateY(-3vh);
+}
+
+.large-imgs-div {
+    min-width: 88%;
+    transform: translateX(3vw);
+}
+
+.small-imgs-div {
+    min-width: 18%;
+    transform: translateX(25px);
+}
+
+.img4-5 {
+    transform: translate(5px, -5vh);
+}
+
+.img4-6 {
+    transform: translateY(-25px);
+}
+
+.img4-7 {
+    transform: translateX(4vw) scale(1.5);
+}
+
+.content-div4 {
+    background: linear-gradient(150deg, #15253A 3%, #101C2C 90%);
+}
+
+/* Fifth slide mobile */
+.img-div5 {
+    background-color: #20D0EA;
+    overflow: hidden;
+}
+
+.img-div5>div{
+    min-width: 115vw;
+    transform: translate(8vw, -1.5vh);
+}
+
+.img5-5{
+    transform: translateY(7vh);
+}
+
+.img-div5 .first-div{
+    transform: translateY(-13vh);
+}
+
+.content-div5 {
+    background-color: #1059CF;
+}
+
+/* Sixth slide mobile */
+.img-div6 {
+    background: url(assets/bgImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.img-div6>div{
+    min-width: 115vw;
+    transform: translateX(-5vw);
+}
+
+.content-div6 {
+    background-color: #012682;
+}
+
+/* Seventh slide mobile */
+.img-div7 {
+    background-color: #01B769;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-div7>div{
+    min-width: 125vw;
+    transform: translate(12vw,10vh);
+}
+
+.z-index{
+    z-index: 10;
+}
+
+.img7-2{
+    transform: translate(-24vw,30px);
+}
+
+#last-img {
+    background-color: white;
+    max-width: max-content;
+    width: 72vw;
+    border: 3px solid #007846;
+    border-radius: 10px;
+}
+
+.content-div7 {
+    background-color: #007846;
+}
+
+.content-div7 button {
+    color: #007846;
+    padding: 12px 18px;
+}
