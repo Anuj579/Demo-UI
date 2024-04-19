@@ -13,6 +13,14 @@
     min-width: max-content;
 }
 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffffff;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #9696967a;
+}
+
 .height-55 {
     height: 55vh;
 }
