@@ -7,6 +7,10 @@
 
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -263,12 +267,14 @@ body {
     .lg-design {
         display: block;
         min-height: 100vh;
-        scroll-behavior: smooth; /* Enable smooth scrolling */
+        scroll-behavior: smooth;
+        /* Enable smooth scrolling */
     }
 
-    .slide{
+    .slide {
         position: sticky;
         top: 0;
+        scroll-snap-align: start;
     }
 
     /* Custom scrollbar */
