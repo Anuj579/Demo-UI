@@ -267,8 +267,6 @@ body {
     .lg-design {
         display: block;
         min-height: 100vh;
-        scroll-behavior: smooth;
-        /* Enable smooth scrolling */
     }
 
     .slide {
